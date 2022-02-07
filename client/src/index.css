@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  overflow-y: hidden;
+}
+.app-container{
+  overflow-y: hidden;
+}
+
+
+
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root {
+  padding: 0 !important;
+}
+
+
+.fucker {
+  height: 70vh;
+  padding-top: 50px;
+}
+
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 50px;
+  margin-bottom: 55px;
+  background-color: rgba(86, 84, 175, 0.877);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  border-radius: 25px;
+  z-index: 3;
+}
+
+.card {
+  margin-bottom: 25px;
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+.login-wrapper {
+background-image:url(../src/pics/frontpage.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-div {
+  background-color: rgba(155, 153, 153, 0.719);
+  padding: 100px;
+  border-radius: 25px;
+
+
+}
+
+.card-list-div {
+  padding-top: 100px;
+  height: 90vh;
+  overflow-y: scroll;
+  background-image:url(../src/pics/frontpage.jpg);
+}
+
+.nav-bar-admin-btn-div {
+  display: flex;
+}
+
+.add-vacation-div-wrapper{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../src/pics/addvacation.jpeg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.statistics-div-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBg {
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sModal {
+  width: 500px;
+  border-radius: 12px;
+  background-color: rgba(200, 200, 200, 1);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 20px;
+}
